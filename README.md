@@ -2,9 +2,9 @@
 
 #### Для того, чтобы собрать и запустить проект, нужно последовательно выполнить следующие команды :
 ```
-  qmake untitled2.pro
+  qmake DirViewProject.pro
 
   make
 
-  ./untitled2 
+  ./DirViewProject 
 ```
