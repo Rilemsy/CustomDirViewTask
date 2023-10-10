@@ -24,7 +24,7 @@ MainWindow::MainWindow(QWidget *parent)
     tree->setColumnWidth(0, tree->width() / 3);
     tree->setWindowTitle(QObject::tr("Dir View"));
 
-    dock = new QDockWidget("Filter", this);
+    dock = new QDockWidget("", this);
     dock->setAllowedAreas(Qt::AllDockWidgetAreas);
     addDockWidget(Qt::LeftDockWidgetArea, dock);
     QWidget *container = new QWidget;
